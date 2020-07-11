@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Stop Watch</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+    <div class="container-fluid border">
+       <div class="row">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <h1> STOP WATCH</h1>
+           </div>
+       </div>    
+    
+
+     <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1 id="minute"> 00 </h1>
+            <h1 id="second"> 00 </h1>
+            <h1 id="milisec"> 00 </h1> 
+        </div>
+     </div>
+
+     <div class="row">
+         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+             <button id="startBtn" onclick="start()">START</button>
+             <button onclick="stop()">STOP</button>
+             <button onclick="reset()">RESET</button>
+         </div>
+     </div>
+    </div>
+
+    
+    
+</body>
+<script src="app.js"></script>
+</html>

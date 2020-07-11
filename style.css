@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: aqua;
+    padding-top: 50px;
+
+
+}
+h1{
+    display: inline-block;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+button{
+    color: rgb(22, 57, 110);
+    font-size: 30px;
+    border-radius: 20px 30px 50px;
+    border-color: rgb(55, 70, 70);
+    background-color: aquamarine;
+    box-shadow: 1px 6px 10px darkseagreen;
+    border-style: none;
+}
+
+.border{
+    border-style: solid;
+    border-radius: 200%;
+    border-color: azure;
+    width: 540px;
+    height: 450px;
+    padding-top: 80px;
+    margin: 0 0 0px 400px;
+    box-shadow: 3px 0px 300px rgb(228, 227, 227);
+}
